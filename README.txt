@@ -58,5 +58,19 @@ pesquisar sobre USER SECRET
 
 Para gerenciar o banco de forma visual: MongoDb Compass
 
+npm install --save @nestjs/config
+npm install @nestjs/cache-manager cache-manager
+npm i --save compression
+
+npm i --save @nestjs/axios axios
+
+npm install @nestjs/swagger swagger-ui-express
+
+
 wsl --install
 wsl
+
+
+git remote add origin git@github.com:adrieellucas/code-challenge-shipix-tech.git
+git branch -M main
+git push -u origin main

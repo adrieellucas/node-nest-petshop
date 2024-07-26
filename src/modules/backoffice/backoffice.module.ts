@@ -9,9 +9,13 @@ import { AddressService } from './services/address.service';
 import { PetService } from './services/pet.service';
 import { PetController } from './controllers/pet.controller';
 import { AddressesController } from './controllers/address.controller';
+import { HttpModule } from '@nestjs/axios';
+import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
     imports: [
+        HttpModule,
+        CacheModule.register(),
         MongooseModule.forFeature([
             {
                 name: 'Customer',
